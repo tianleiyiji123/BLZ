@@ -1,0 +1,54 @@
+.icon-iphone{
+    background: url("../images/icon-iphone.png") no-repeat left center;
+}
+.icon-oppassLock{
+    background: url("../images/icon-oppassLock.png") no-repeat left center;
+}
+.icon-passLock{
+    background: url("../images/icon-passLock.png") no-repeat left center;
+}
+.icon-code{
+    background: url("../images/icon-code.png") no-repeat left center;
+}
+
+.register-from .inp{
+
+    height: 0.9rem;
+    line-height: 0.8rem;
+    padding-left: 0.8rem;
+    background-size: 0.6rem 0.8rem;
+}
+
+.register-from .inp span{
+    display: inline-block;
+    width: 3rem;
+    font-size: 0.70rem;
+
+}
+
+.register-from .inp input{
+    width: 6rem;
+    font-size: 0.55rem;
+}
+
+.buy-agreement{
+    padding: 0.6rem;
+    overflow: hidden;
+}
+.buy-agreement label input{
+    margin: 0.1rem 0.4rem 0 0;
+    float: left;
+}
+.buy-agreement label p{
+    color: #ffffff;
+    font-size: 0.6rem;
+    float: left;
+}
+.buy-agreement a{
+    float: left;
+    font-size: 0.6rem;
+    color: #00a9ea;
+}
+
+
+

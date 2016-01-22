@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <title>支付</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/path/swiper.min.css">
+    <link rel="stylesheet" href="css/payment.css">
+
+</head>
+<body>
+<div class="w payment mt12">
+    <div class="footBox">
+        <ul>
+            <li class="active">
+                <img src="images/btn_01_icon.png">
+
+                <p class="unit">我要理财</p>
+            </li>
+            <li>
+                <img src="images/btn_02_icon.png">
+
+                <p class="unit">我的</p>
+            </li>
+        </ul>
+    </div>
+    <!--页面开始-->
+    <div class="buy-way buy-go tit">
+    <h3 class="bg-gradual ">支付详情</h3>
+    <div class="bg-gradual">
+        <div class=" radio-div radio-bottom radioBg">
+            <p>订单号</p>
+            <p>TSR20160107000010006</p>
+        </div>
+        <div class=" radio-div radio-bottom radioBg">
+            <p>订单金额</p>
+            <p>680.00</p>
+        </div>
+        <div class=" radio-div radio-bottom radioBg">
+            <p>产品信息</p>
+            <p>recharged through 95epay</p>
+        </div>
+        <div class=" radio-div radio-bottom radioBg">
+            <p>卡类型</p>
+            <p>借记卡</p>
+        </div>
+        <div class="radio-div radio-bottom radioBg">
+            <p>银行卡号</p>
+            <p>6225********3285</p>
+        </div>
+        <div class=" radio-div radio-bottom radioBg">
+            <p>开户姓名</p>
+            <p>王淘</p>
+        </div>
+        <div class=" radio-div ">
+            <p>证件号码</p>
+            <p>2783********7345</p>
+        </div>
+    </div>
+    <div class="buy-way buy-go tit mt12">
+            <h3 class="bg-gradual ">支付手机</h3>
+            <div class="bg-gradual">
+
+                <div class=" radio-div input-com radio-bottom">
+                   <input class="input-text" placeholder="请输入您的手机号码">
+                </div>
+                <div class=" radio-div input-com">
+                    <input class="input-text" placeholder="请输入您的验证码">
+                    <span class="minBtn">
+                            发送验证码
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    <div class="btn" id="next-password">
+        下一步
+    </div>
+</div>
+</div>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/layer/layer.js"></script>
+<script>
+    $("#next-password").on("tap",function(){
+        layer.open({
+            title: [
+                '输入交易密码',
+                ' color:#000;text-align: center;'
+            ],
+            style: 'width:15rem',
+            content:'<div class="password-box">' +
+            '<div class="password-inp fix">' +
+            '<input type="password" maxlength="1">' +
+            '<input type="password" maxlength="1">' +
+            '<input type="password" maxlength="1">' +
+            '<input type="password" maxlength="1">' +
+            '<input type="password" maxlength="1">' +
+            '<input type="password" maxlength="1">' +
+            '</div>' +
+            '<div class="btn mlr">确定</div>' +
+            '</div>',
+            success: function(elem){
+
+                $(elem).find(".password-inp input").on("keydown",function(){
+                        alert()
+                })
+            }
+
+        });
+    })
+
+</script>
+
+</body>
+</html>

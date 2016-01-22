@@ -2,11 +2,11 @@
 /* reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,section,article,aside,header,footer,nav,dialog,figure{margin:0;padding:0;}
 table {border-collapse:collapse;border-spacing:0}
-h1,h2,h3,h4,h5,h6{font-size:100%;}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:400}
 ul,ol,li{list-style:none}
 em,i{font-style:normal}
 img{border:0;max-width:100%;}
-input,img{vertical-align:middle;}
+input,img{vertical-align:middle; background: transparent}
 input:focus,a:focus{outline:none;}
 a{color:#333;text-decoration:none;}
 *{-webkit-tap-highlight-color: rgba(0,0,0,0);box-sizing:border-box;-webkit-box-sizing:border-box;}
@@ -37,7 +37,7 @@ html * {
 html{font-size:12px;}
 /* Site Global */
 body{min-width:320px;color:#333;background: #005fa2;}
-.w{margin:0 auto;}
+.w{margin:0 auto;  padding-bottom: 3.2rem;}
 .layout{margin:10px;-webkit-box-sizing:border-box;}
 .pdlayout{padding:10px;}
 .fix:after{display:block; content:''; clear:both; visibility:hidden;}
@@ -47,6 +47,11 @@ body{min-width:320px;color:#333;background: #005fa2;}
 .block{display:block;}
 .dib{display:inline-block;}
 .hide{display:none}
+
+.mlr{
+    margin-left: 0 !important;;
+    margin-right: 0 !important;;
+}
 .mt20{margin-top:20px !important;}
 .mt10{margin-top:10px !important;}
 .mt15{margin-top:15px !important;}
@@ -57,6 +62,7 @@ body{min-width:320px;color:#333;background: #005fa2;}
 .ti10{text-indent:10px;}
 .tr{text-align:right;}
 .tc{text-align:center;}
+.f10{font-size:0.83rem !important;}
 .f12{font-size:1rem !important;}
 .f14{font-size:1.16rem !important;}
 .f15{font-size:1.25rem !important;}
@@ -84,22 +90,63 @@ body{min-width:320px;color:#333;background: #005fa2;}
 .red{color:#fe495a;}
 .unit{font-size: 0.75rem;}
 .green{color:#1cae49;}
+.gap{
+    display: block;
+    height: 100%;
+    width: 1px;
+    background-color: #EDEDED;
+    overflow: hidden;
+    text-indent: -99999px;
+}
 
-.tit{
-    color:#fff;
+.tit h3{
+    font-size: 0.7rem;
+    color: #686868;
+    font-weight: normal;
 }
 .btn{
-
-    width: 15rem;
     text-align: center;
     color: #fff;
     border-radius:0.12rem;
-    margin: 1rem auto;
-    background: -webkit-linear-gradient(bottom, #e17228 0%, #fc8a3a 30%);
+    margin: 1rem 0.5rem;
+    background: -webkit-linear-gradient(bottom, #e17228 0%, #fc8a3a 40%);
     font-size: 0.75rem;
     padding: 0.4rem 0;
+    border: 0.06rem #fc8231 solid;
+    box-shadow:0 0 4px rgba(255, 255, 255, 0.73);
 }
 
+.minBtn{
+    display: inline-block;
+    border-radius:0.12rem;
+    color:#07B0EF;
+    font-size: 0.2rem;
+    padding:0.2rem 0.6rem;
+    border: 0.083rem #07B0EF solid;
+}
+/*密码框*/
+.password-inp{
+    border: 0.08rem solid #bababa;
+    border-radius: 0.12rem;
+}
+.password-inp input{
+    float: left;
+    display: inline-block;
+    width: 2.18rem;
+    line-height: 2rem;
+    border-style: none solid none none;
+    border-color: #bababa;
+    border-width:0.08rem;
+    text-align: center;
+    height: 2rem;
+    font-size: 2rem;
+}
+.password-inp input:nth-child(6){
+    border: none;
+}
+.password-box .btn{
+    padding: 0.7rem 0;
+}
 /*底部*/
 .footBox{
     left: 0;
@@ -111,7 +158,6 @@ body{min-width:320px;color:#333;background: #005fa2;}
     background-color: #0087d4;
     border-top: 0.06rem #004fac solid;
 }
-
 .footBox ul li{
     padding-top: 0.1rem;
     height: 3.2rem;
@@ -156,10 +202,10 @@ body{min-width:320px;color:#333;background: #005fa2;}
     float: right;
     margin-left: 0.8rem;
 }
-.input-com input.input-text{
+ input.input-text{
     width: 10.5rem;
     height: 1rem;
-    float: right;
+
     font-size: 0.65rem;
     border: 0;
 }
@@ -168,8 +214,12 @@ body{min-width:320px;color:#333;background: #005fa2;}
 .radio-div{
     overflow: hidden;
     padding: 0.5rem 0;
+
+}
+.radio-div.radioBg{
+
     background: url("../images/buy-icon-3.png") right center no-repeat;
-    background-size: 0.6rem .9rem;
+    background-size:0.3rem .5rem;
 }
 .radio-remove{
     width: 0.6rem;
@@ -187,7 +237,7 @@ body{min-width:320px;color:#333;background: #005fa2;}
     opacity: 0;
 }
 .radio-div p{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     color: #888888;
 }
 .radio-div p:nth-of-type(1){
@@ -212,7 +262,7 @@ body{min-width:320px;color:#333;background: #005fa2;}
 .move{
     font-size: 0.45rem;
     color: #fff;
-    padding:0.35rem 0.45rem;
+    padding:0.15rem 0.45rem;
     border: 0.05rem solid #0093d5;
     background: -webkit-linear-gradient(top, #0080ce 0%, #006bb8 100%);
     box-shadow:0 0 0.12rem #fff

@@ -1,0 +1,40 @@
+.payment-success-mess{
+    text-align: center;
+}
+
+.payment-success-mess img{
+    display: block;
+    margin: 1rem  auto 0.8rem;
+    width: 2.5rem;
+}
+
+.payment-success-mess span{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.payment-success-mess p{
+    text-align: center;
+    font-size: 0.5rem;
+    color: #888888;
+    line-height: 0.8rem;
+}
+.route{
+    margin-top: 1.2rem;
+}
+.route li{
+    float: left;
+}
+.route li.route-url{
+    display: inline-block;
+    text-align: center;
+    width: 7.35rem;
+}
+.route li a{
+    font-size: 0.75rem;
+    color: #00aeef;
+
+}
+
+
