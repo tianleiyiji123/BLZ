@@ -1,0 +1,70 @@
+/*首页*/
+.home{
+    padding-bottom: 3.2rem;;
+}
+.home .home-banner{
+
+
+}
+.home .i-icon li{
+    padding-top:0.3rem ;
+    width: 5.32rem;
+    height:3rem;
+    border: 0.04rem solid #e3e3e3;
+    /*background: -webkit-gradient(linear, left bottom, left top,  color-stop(50%,#ffffff) , color-stop(0%,#d6d6d6));*/
+    background: -webkit-linear-gradient(bottom, #cacaca 0%, #fefefe 40% ,#ffffff 41% ,#ffffff 100%);
+}
+
+.home .i-icon li p{
+    font-size:0.55rem;
+    font-weight: bold;
+    margin-top: 0.3rem;
+    color: #686868;
+}
+.home .i-icon li img{
+    width: 1rem;
+}
+
+.home .panel{
+    position: relative;
+    padding: 0.9rem 0 ;
+    text-align: center;
+    background: -webkit-linear-gradient(bottom, #d4d4d4 0%, #fff 20%);
+    border-left: 0.2rem #00aeef solid;
+    border-radius: 0.1rem 0.2rem 0.2rem 0.1rem;
+}
+
+
+
+.home .panel {
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.home .panel h3{
+    font-size: 0.75rem;
+    color: #546077;
+    font-family: normal;
+}
+.home .panel .ms{
+    color: #00aeef;
+    font-size: 0.75rem;
+    margin: 0.9rem 0 0.6rem 0;
+}
+.home .panel .unit{
+    font-size: 1.6rem;
+}
+
+.home .panel ul{
+
+}
+.home .panel ul li{
+    display: inline-block;
+    font-size: 0.45rem;
+    padding: 0.35rem;
+    border-radius: 0.1rem ;
+    background: rgba(0, 165, 237, 0.09);
+    border: 0.083rem solid #33bef2;
+    color: #00aeef;
+}
+

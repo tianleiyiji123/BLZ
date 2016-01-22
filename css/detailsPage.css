@@ -1,0 +1,101 @@
+.detailsPage{
+
+    padding-bottom: 3.2rem;;
+
+}
+.star_icon_wrap{
+    display: inline-block;
+}
+.star_icon{
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../images/star_icon.png") no-repeat center;
+    background-size: cover;
+}
+.detailsPage .mod-data{
+    text-align: center;
+    margin: 0.6rem 0;
+}
+
+.detailsPage .mod-data strong{
+    display:block;
+    color: #fff;
+    font-size: 0.75rem;
+    margin: 0.6rem 0;
+}
+
+.detailsPage .mod-data img{
+    width: 8rem;
+}
+
+.detailsPage .mod-data-describe li{
+    text-align: center;
+    padding-top:0.3rem ;
+    width: 8rem;
+    height:3rem;
+    border: 0.04rem solid #e3e3e3;
+    background: -webkit-gradient(linear, left bottom, left top,  color-stop(50%,#ffffff) , color-stop(0%,#d6d6d6));
+}
+.detailsPage .mod-data-describe li span{
+    color: #fc8231;
+}
+
+.detailsPage .mod-data-describe li p{
+    margin-top: 0.3rem;
+    font-size: 0.6rem;
+}
+
+.detailsPage .mod-details{
+    background: -webkit-gradient(linear, left bottom, left top,  color-stop(30%,#ffffff) , color-stop(0%,#afafaf));
+    margin-top: 0.75rem;
+}
+
+.detailsPage .mod-details strong{
+    padding-left: 0.75rem;
+    display: inline-block;
+    font-size: 0.75rem;
+    color: #00579c;
+    border-bottom: 0.08rem solid #005fab;
+    line-height: 2.2rem;
+}
+.mess{
+    background: -webkit-linear-gradient(bottom, #d4d4d4 0%, #fff 30%);
+    padding-top: 1rem;
+    margin-bottom: 0.6rem;
+    padding-bottom:0.6rem ;
+}
+
+.mess img{
+    display: block;
+   width: 15rem;
+    margin: 0 auto 2rem;
+}
+.mess p {
+    width: 15rem;
+    font-size: 0.65rem;
+    line-height: 0.95rem;
+    margin: 0 auto;
+}
+
+
+.mess-list li{
+    padding:  0.6rem 0.75rem 0;
+
+    font-size: 0.75rem;
+    line-height: 0.95rem;
+    height: 2rem;
+    background: -webkit-gradient(linear, left bottom, left top,  color-stop(30%,#ffffff) , color-stop(0%,#ededed));
+
+}
+.mess-list li span{
+    line-height: 0.95rem;
+
+}
+.mess-list li i{
+    display: block;
+    width:0.6rem;
+    height: 0.8rem;
+    background-size: cover;
+    background: url("../images/up-icon.png") no-repeat center;
+}

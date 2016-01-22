@@ -1,0 +1,70 @@
+
+
+/*按钮通用样式*/
+
+.buy-confirm{
+    height: 2rem;
+    margin: 0.8rem 0.6rem;
+    background: -webkit-linear-gradient(bottom, #df7128 0%, #fc8c3d 100%);
+
+}
+.buy-confirm button{
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9rem;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+/*页面单独样式*/
+.buy-top{
+    padding: 50px 15px;
+    background: -webkit-linear-gradient(top, #0068bc 0%, #004c8a 100%);
+}
+.buy-top p:nth-of-type(1){
+    color: #ff9f31;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.buy-top p:nth-of-type(2){
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+.buy-go h3{
+    font-size: 0.7rem;
+    color: #686868;
+    font-weight: normal;
+}
+.buy-w-detail{
+    /*border-bottom: 1px solid #dddddd;*/
+
+}
+.buy-w-detail input{
+    float: left;
+}
+.buy-w-detail p{
+
+}
+.buy-agreement{
+    padding: 0.6rem;
+    overflow: hidden;
+}
+.buy-agreement label input{
+    margin: 0.1rem 0.4rem 0 0;
+    float: left;
+}
+.buy-agreement label p{
+    color: #ffffff;
+    font-size: 0.6rem;
+    float: left;
+}
+.buy-agreement a{
+    float: left;
+    font-size: 0.6rem;
+    color: #00a9ea;
+}

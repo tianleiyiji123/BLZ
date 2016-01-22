@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>首页</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/path/swiper.min.css">
+    <link rel="stylesheet" href="css/detailsPage.css">
+</head>
+<body>
+<div class="w detailsPage">
+    <div class="footBox">
+        <ul>
+            <li class="active">
+                <img src="images/btn_01_icon.png">
+                <p class="unit">我要理财</p>
+            </li>
+            <li>
+                <img src="images/btn_02_icon.png">
+                <p class="unit">我的</p>
+            </li>
+        </ul>
+    </div>
+    <!--页面开始-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner1.png"></div>
+            <div class="swiper-slide"><img src="images/banner1.png"></div>
+            <div class="swiper-slide"><img src="images/banner1.png"></div>
+        </div>
+        <div class="swiper-pagination banner-dot"></div>
+    </div>
+    <div class="mod-data">
+        <strong>暴雪理财（定期90天|2千元起）</strong>
+        <div class="plan">
+            <img src="images/plan.png">
+        </div>
+    </div>
+    <div class="mod-data-describe fix">
+        <ul>
+            <li class="fl">
+                <span>3.8460</span>
+                <p>年化(%）</p>
+            </li>
+            <li class="fl">
+                <span>稳健型</span>
+                <div>
+                    <p class="fl">安全等级：</p>
+                    <div class="fl">
+                        <i class="star_icon"></i>
+                        <i class="star_icon"></i>
+                        <i class="star_icon"></i>
+                        <i class="star_icon"></i>
+                        <i class="star_icon"></i>
+                    </div>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+    <div class="mod-details">
+        <strong>项目详情</strong>
+    </div>
+    <div class="mess">
+        <img src="images/deBanner.jpg">
+        <p>
+            统计数据显示，5月18日~6月5日，暴雪金融做市板块连续15个交易日成交额低于协议板块。6月8日~7月15日，暴雪金融调整最剧烈时期，这一情况没有发生；到7月16日这种情况再次重演：7月16日~8月14日的22个交易日内有13个交易日出现做市板块成交金额不及协议转让的情况。
+        </p>
+    </div>
+    <ul class="mess-list">
+        <li>
+            <span class="fl">理财周期</span>
+            <i class="fr"></i>
+        </li>
+        <li>
+            <span class="fl">详细说明</span>
+            <i class="fr"></i>
+        </li>
+        <li>
+            <span class="fl">投资策略描述</span>
+            <i class="fr"></i>
+        </li>
+        <li>
+            <span class="fl">历史业绩</span>
+            <i class="fr"></i>
+        </li>
+        <li>
+            <span class="fl">业绩数据分析</span>
+            <i class="fr"></i>
+        </li>
+        <li>
+            <span class="fl">取出规则</span>
+            <i class="fr"></i>
+        </li>
+        <li>
+            <span class="fl">基金公司介绍</span>
+            <i class="fr"></i>
+        </li>
+        <li>
+            <span class="fl">风险提示</span>
+            <i class="fr"></i>
+        </li>
+    </ul>
+    <div class="btn">
+        立即购买
+    </div>
+</div>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/swiper.js"></script>
+<script type="text/javascript">
+    var mySwiper = new Swiper('.swiper-container',{
+        autoplay: 5000,
+        pagination: '.swiper-pagination'
+    })
+</script>
+</body>
+</html>

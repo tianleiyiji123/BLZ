@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <title>首页</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet">
+    <link href="css/product-buy.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/path/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="buy home">
+    <div class="footBox">
+        <ul>
+            <li class="active">
+                <img src="images/btn_01_icon.png">
+
+                <p class="unit">我要理财</p>
+            </li>
+            <li>
+                <img src="images/btn_02_icon.png">
+
+                <p class="unit">我的</p>
+            </li>
+        </ul>
+    </div>
+    <!--页面开始-->
+    <div class="buy-top">
+        <p>暴雪理财产品</p>
+
+        <p>（2016-1-16 前不可取出）</p>
+    </div>
+
+    <div class="input-com bg-gradual">
+        <p class="inp-com-p-1">买入金额</p>
+        <input type="text" class="input-text" placeholder="请输入买入金额，金额为100的倍数">
+    </div>
+
+    <div class="h5"></div>
+    <div class="buy-way buy-go">
+        <h3 class="bg-gradual">买入方式</h3>
+
+        <div class="bg-gradual">
+            <div class="buy-w-detail radio-div radio-bottom">
+            <span class="radio-remove radio-on j-radio-1">
+                <input type="radio" name="buy-way" class="radio-class">
+            </span>
+
+                <p>网银支付</p>
+
+                <p>6225********3285</p>
+            </div>
+            <div class="buy-w-detail radio-div ">
+            <span class="radio-remove j-radio-1">
+                <input type="radio" name="buy-way" class="radio-class">
+            </span>
+
+                <p>可用余额0.00元</p>
+                <a>立即充值</a>
+            </div>
+        </div>
+    </div>
+    <div class="h5"></div>
+    <div class="input-com bg-gradual">
+        <p class="inp-com-p-1">买入金额</p>
+        <a>立即设置</a>
+        <input type="text" class="input-text" placeholder="您还未设置交易密码" style="width: 7rem">
+    </div>
+
+    <div class="h5"></div>
+
+    <div class="buy-handle buy-go">
+        <h3 class="bg-gradual">到期处理</h3>
+
+        <div class="bg-gradual" >
+            <div class="buy-w-detail radio-div radio-bottom" style="background: none">
+            <span class="radio-remove radio-on j-radio-2">
+                <input type="radio" name="buy-handle" class="radio-class">
+            </span>
+
+                <p style="width: 13rem; font-size: 0.55rem">自动买入下一期 到期后本金及收益继续封闭，不间断</p>
+            </div>
+            <div class="buy-w-detail radio-div radio-bottom" style="background: none">
+            <span class="radio-remove j-radio-2">
+                <input type="radio" name="buy-handle" class="radio-class">
+            </span>
+
+                <p style="width: 13rem; font-size: 0.55rem">取出至账户 到期后本金及收益自动取出至账户</p>
+            </div>
+            <div class="buy-w-detail radio-div " style="background: none">
+            <span class="radio-remove j-radio-2">
+                <input type="radio" name="buy-handle" class="radio-class">
+            </span>
+
+                <p style="width: 13rem; font-size: 0.55rem">取出至银行卡 到期后本金及收益自动取出你的银行卡</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="buy-agreement">
+        <label>
+            <input type="checkbox">
+            <p>我已阅读并同意签署</p>
+        </label>
+        <a>《服务协议及风险提示》</a>
+    </div>
+
+    <div class="buy-confirm">
+        <button>确认购买</button>
+    </div>
+
+</div>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/product-buy.js"></script>
+<script src="js/swiper.js"></script>
+
+<script type="text/javascript">
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay: 5000,
+        pagination: '.swiper-pagination'
+    })
+</script>
+</body>
+</html>
