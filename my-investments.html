@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <title>我的投资</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet">
+    <link href="css/my-investments.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="w my-investments">
+    <div class="footBox">
+        <ul>
+            <li class="active">
+                <img src="images/btn_01_icon.png">
+
+                <p class="unit">我要理财</p>
+            </li>
+            <li>
+                <img src="images/btn_02_icon.png">
+
+                <p class="unit">我的</p>
+            </li>
+        </ul>
+    </div>
+    <!--页面开始-->
+    <div class="my-investments-top bg-gradual">
+       <ul>
+           <li class="active bgap">买入取出</li>
+           <li class="bgap">全部产品</li>
+           <li>所有月份</li>
+       </ul>
+    </div>
+    <!--投资-->
+    <div class="bg-gradual investments-record-list mt10 ">
+        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
+    </div>
+    <div class="bg-gradual investments-record-list mt10 ">
+        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
+    </div>
+    <div class="bg-gradual investments-record-list mt10 ">
+        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
+    </div>
+    <div class="bg-gradual investments-record-list mt10 ">
+        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
+    </div>
+    <div class="bg-gradual investments-record-list mt10 ">
+        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
+    </div>
+    <div class="bg-gradual investments-record-list mt10 ">
+        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
+    </div>
+    <div class="bg-gradual investments-record-list mt10 ">
+        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
+    </div>
+    <div class="bg-gradual investments-record-list mt10 ">
+        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
+    </div>
+    <div class="bg-gradual investments-record-list mt10 ">
+        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
+    </div>
+    <div class="bg-gradual investments-record-list mt10 ">
+        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
+    </div>
+</div>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/layer/layer.js"></script>
+<script>
+    $(function(){
+        $(".investments-record-list").on("tap",function(){
+            layer.open({
+                className:"bg-gradual submit-box",
+                fixed:true,
+                shade:false,
+                style: 'width:100%;max-width:100%; top:1.8rem; border:none; left:0; position:fixed;',
+                content: '<div class="subBtn">买入</div><div class="subBtn">取出</div>'
+
+            });
+        })
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+.icon-user{
+    background: url("../images/icon-user.png") no-repeat left center;
+}
+.icon-notepad{
+    background: url("../images/icon-notepad.png") no-repeat left center;
+}
+.icon-notepad_OK{
+    background: url("../images/icon-notepad_OK.png") no-repeat left center;
+}
+
+
+.real-name-from .inp{
+
+    height: 0.9rem;
+    line-height: 0.6rem;
+    padding-left: 1rem;
+    background-size: 0.8rem 0.8rem;
+}
+
+.real-name-from .inp span{
+    display: inline-block;
+    width: 3rem;
+    font-size: 0.70rem;
+
+}
+
+.real-name-from .inp input{
+    width: 6rem;
+    font-size: 0.55rem;
+}
+
+
+

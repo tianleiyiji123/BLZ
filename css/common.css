@@ -121,8 +121,18 @@ body{min-width:320px;color:#333;background: #005fa2;}
     border-radius:0.12rem;
     color:#07B0EF;
     font-size: 0.2rem;
-    padding:0.2rem 0.6rem;
-    border: 0.083rem #07B0EF solid;
+    padding:0.19rem 0.55rem;
+    border: 0.05rem #07B0EF solid;
+}
+
+.subBtn{
+    display: inline-block;
+    padding: 0.23rem 0.8rem;
+    border: 0.03rem #0068B4 solid;
+    border-radius: 0.14rem;
+    color: #fff;
+    margin:0 0.8rem;
+    background: -webkit-linear-gradient(bottom,#006ec2  0%, #0078CB 40%);
 }
 /*密码框*/
 .password-inp{
@@ -132,7 +142,7 @@ body{min-width:320px;color:#333;background: #005fa2;}
 .password-inp input{
     float: left;
     display: inline-block;
-    width: 2.18rem;
+    width: 2.13rem;
     line-height: 2rem;
     border-style: none solid none none;
     border-color: #bababa;

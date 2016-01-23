@@ -1,0 +1,40 @@
+.withdraw-record-list{
+    border-left: 0.18rem solid #00AEEF;
+
+}
+.state span,.stateMess span{
+    color: #909090;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+.state span:nth-child(1) ,.stateMess span:nth-child(1){
+    display: block;
+    float: left;
+}
+
+.state span:nth-child(2) ,.stateMess span:nth-child(2){
+    display: block;
+    float: right;
+}
+
+.stateMess{
+    margin-top: 0.1rem;
+}
+.stateMess span{
+    font-size: 0.55rem;
+}
+.stateMess span em{
+    margin-left:0.2rem;
+}
+/*.stateMess span:nth-child(2) p{
+    font-size: 0.35rem;
+}*/
+.state span:nth-child(2) em{
+    color: #FC8231;
+}
+.withdraw-record-list.error{
+    border-left: 0.18rem solid #FC8231;
+}
+.withdraw-record-list.error .stateMess span:nth-child(1){
+    color: #FC8231;
+}

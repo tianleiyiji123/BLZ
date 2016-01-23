@@ -1,0 +1,25 @@
+.school-list{
+    border-left: 0.18rem solid #00AEEF;
+
+}
+.school-list-box{
+    background: url("../images/buy-icon-3.png") right center no-repeat;
+    background-size: 0.4rem 0.6rem;
+}
+.state span{
+    display: inline-block;
+    color: #686868;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    float: left;
+}
+.stateMess {
+    margin-top: 0.1rem;
+}
+.stateMess span{
+    display: inline-block;
+    color: #909090;
+    font-size: 0.65rem;
+    float: left;
+}
+
