@@ -12,7 +12,7 @@
     width: 4.5rem;
     font-size: 0.70rem;
     float: left;
-    line-height: 0.9rem;
+    line-height: 1.1rem
 }
 
 .withdrawal-from .inp p{
@@ -23,7 +23,7 @@
     line-height: 0.9rem;
 }
 .withdrawal-from .inp input{
-    width: 6rem;
+    width: 7rem;
 }
 
 

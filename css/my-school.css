@@ -9,7 +9,7 @@
 .state span{
     display: inline-block;
     color: #686868;
-    font-size: 0.75rem;
+    font-size: 0.66rem;
     line-height: 1rem;
     float: left;
 }
@@ -19,7 +19,8 @@
 .stateMess span{
     display: inline-block;
     color: #909090;
-    font-size: 0.65rem;
+    font-size: 0.6rem;
     float: left;
+    margin-top: 0.1rem;
 }
 

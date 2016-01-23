@@ -26,8 +26,9 @@
     padding-right: 1rem;
     display: inline-block;
     font-size: 0.75rem;
-    color: #BBBBBB;
+    color: #9a9a9a;
     background: url("../images/buy-icon-3.png") no-repeat right center;
+    background-size: 0.4rem 0.6rem;
 }
 .register-from .inp span{
     display: inline-block;
@@ -36,10 +37,6 @@
 
 }
 
-.register-from .inp input{
-    width: 6rem;
-    font-size: 0.55rem;
-}
 
 .buy-agreement{
     padding: 0.6rem 0.6rem 0 0.6rem;

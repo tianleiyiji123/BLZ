@@ -20,10 +20,6 @@
 
 }
 
-.login-from .inp input{
-    width: 6rem;
-    font-size: 0.55rem;
-}
 
 .login-panel{
    margin: 0 0.5rem;
@@ -31,7 +27,7 @@
 
 .login-panel a{
     color: #00aeef;
-    font-size: 0.05rem;
+    font-size:0.5rem;
     text-decoration: underline;
 }
 .login-panel a:nth-child(1){

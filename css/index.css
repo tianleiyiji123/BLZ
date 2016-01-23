@@ -16,8 +16,7 @@
 }
 
 .home .i-icon li p{
-    font-size:0.55rem;
-    font-weight: bold;
+    font-size:0.6rem;
     margin-top: 0.3rem;
     color: #686868;
 }
@@ -43,13 +42,13 @@
 
 .home .panel h3{
     font-size: 0.75rem;
-    color: #546077;
-    font-family: normal;
+    color: #000A25;
+    font-family: "微软雅黑";
 }
 .home .panel .ms{
     color: #00aeef;
     font-size: 0.75rem;
-    margin: 0.9rem 0 0.6rem 0;
+    margin: 0.5rem 0 0.6rem 0;
 }
 .home .panel .unit{
     font-size: 1.6rem;
@@ -60,11 +59,11 @@
 }
 .home .panel ul li{
     display: inline-block;
-    font-size: 0.45rem;
-    padding: 0.35rem;
+    font-size: 0.6rem;
+    padding: 0.16rem;
     border-radius: 0.1rem ;
     background: rgba(0, 165, 237, 0.09);
-    border: 0.083rem solid #33bef2;
+    border: 0.06rem solid #33bef2;
     color: #00aeef;
 }
 

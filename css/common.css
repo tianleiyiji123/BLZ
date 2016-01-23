@@ -84,12 +84,14 @@ body{min-width:320px;color:#333;background: #005fa2;}
 .border-down{border-width:0 0 1px 0;}
 .border-left{border-width:0 0 0 1px;}
 .border-right{border-width:0 1px 0 0;}
-
+.mar_top{
+    margin-top: -0.16rem;
+}
 .num{font-size:1rem;}
 .blue{color:#2390ff;}
 .red{color:#fe495a;}
 .unit{font-size: 0.75rem;}
-.green{color:#1cae49;}
+.white{color:#fff;}
 .gap{
     display: block;
     height: 100%;
@@ -108,7 +110,7 @@ body{min-width:320px;color:#333;background: #005fa2;}
     text-align: center;
     color: #fff;
     border-radius:0.12rem;
-    margin: 1rem 0.5rem;
+    margin: 1rem 0.5rem 0.6rem;
     background: -webkit-linear-gradient(bottom, #e17228 0%, #fc8a3a 40%);
     font-size: 0.75rem;
     padding: 0.4rem 0;
@@ -121,7 +123,7 @@ body{min-width:320px;color:#333;background: #005fa2;}
     border-radius:0.12rem;
     color:#07B0EF;
     font-size: 0.2rem;
-    padding:0.19rem 0.55rem;
+    padding:0.2rem 0.25rem;
     border: 0.05rem #07B0EF solid;
 }
 
@@ -213,11 +215,11 @@ body{min-width:320px;color:#333;background: #005fa2;}
     margin-left: 0.8rem;
 }
  input.input-text{
-    width: 10.5rem;
-    height: 1rem;
-
-    font-size: 0.65rem;
-    border: 0;
+     width: 10.5rem;
+     height: 1rem;
+     font-size: 0.65rem;
+     border: 0;
+     line-height: 1.15rem;
 }
 
 /*单选框通用样式*/
