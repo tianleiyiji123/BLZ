@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <title>账户设置</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet">
+    <link href="css/account-settings.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+<div class="w account-settings">
+    <div class="footBox">
+        <ul>
+            <li class="active">
+                <img src="images/btn_01_icon.png">
+                <p class="unit">我要理财</p>
+            </li>
+            <li>
+                <img src="images/btn_02_icon.png">
+                <p class="unit">我的</p>
+            </li>
+        </ul>
+    </div>
+    <!--页面开始-->
+    <div class="account-settings-from">
+        <div class="bg-gradual mt15" id="nickname">
+            <div class="icon-user inp">
+                <span >我的昵称</span>
+                <div class="fr inpMess">
+                    <input class="input-text" value="夏洛特烦恼" type="text" readonly="readonly">
+                </div>
+
+            </div>
+        </div>
+        <div class="bg-gradual mt15">
+            <div class="icon-USER_OK inp">
+                <span >实名认证</span>
+                <div class="fr inpMess">
+                    <input class="input-text" value="已认证" type="text" readonly="readonly">
+                </div>
+            </div>
+        </div>
+        <div class="bg-gradual mt15 ">
+            <div class="icon-iphone inp">
+                <span >绑定手机</span>
+                <div class="fr inpMess">
+                <input class="input-text"  value="16532596254" type="text" readonly="readonly">
+                    </div>
+            </div>
+
+        </div>
+        <div class="bg-gradual mt15 ">
+            <div class="icon-passLock inp">
+                <span >登陆密码</span>
+                <div class="fr inpMess">
+                    <input class="input-text" value="已设置" type="text" readonly="readonly">
+
+                </div>
+            </div>
+        </div>
+        <div class="bg-gradual mt15 ">
+            <div class="icon-Face inp">
+                <span >交易密码</span>
+                <div class="fr inpMess">
+                    <input class="input-text" value="已设置" type="text" readonly="readonly">
+                </div>
+            </div>
+        </div>
+        <div class="bg-gradual mt15 ">
+            <div class="icon-CREDIT-CARD inp">
+                <span >银行卡</span>
+                <div class="fr inpMess">
+                    <input class="input-text" value="已绑定" type="text" readonly="readonly">
+
+                </div>
+            </div>
+        </div>
+        <div class="mess ">
+            <p>*如要修改银行卡,请联系<em>400-963-8858</em></p>
+        </div>
+        <div class="bg-gradual mt5">
+            <div class="icon-GRID inp">
+                <a class="block inpMess fix">
+                <span >主题背景</span>
+                </a>
+            </div>
+        </div>
+        <div class="bg-gradual mt15">
+            <div class="icon-SPEECH inp">
+                <a class="block inpMess fix">
+                    <span >关于我们</span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="btn">安全退出</div>
+</div>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/layout.js"></script>
+<script>
+    $(function(){
+        $("#nickname").data("key",0).on("tap",function(){
+            if( $(this).data("key") == 0){
+                $(this).find(".inpMess").addClass("edit").find("input").removeAttr("readonly")
+                $(this).data("key",1)
+            }else{
+                $(this).find(".inpMess").removeClass("edit").find("input").attr("readonly")
+                $(this).data("key",0)
+            }
+
+        })
+    })
+</script>
+
+</body>
+</html>

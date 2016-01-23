@@ -1,0 +1,55 @@
+
+.withdrawal-from .inp{
+
+    height: 0.9rem;
+    line-height: 0.8rem;
+
+
+}
+
+.withdrawal-from .inp span{
+    display: inline-block;
+    width: 4.5rem;
+    font-size: 0.70rem;
+    float: left;
+    line-height: 0.9rem;
+}
+
+.withdrawal-from .inp p{
+    font-size: 0.65rem;
+    float: right;
+    text-align: right;
+    color: #888888;
+    line-height: 0.9rem;
+}
+.withdrawal-from .inp input{
+    width: 6rem;
+}
+
+
+.inpMess{
+    background: url("../images/buy-icon-3.png") no-repeat right center;
+    background-size: 0.3rem 0.5rem;
+    padding-right: 1rem;
+}
+
+.inpMess.edit{
+    background: url("../images/icon-fork.png") no-repeat right center;
+    background-size: 0.8rem 0.8rem;
+    padding-right: 1rem;
+}
+.mess{
+    padding: 0.2rem 0.6rem;
+    display: block;
+    color: #ffffff;
+    font-size: 0.6rem;
+    text-align: right;
+}
+.mess em{
+    margin-left: 0.6rem;
+    color: #00aeef;
+}
+
+
+
+

@@ -6,17 +6,18 @@
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
     <meta content="telephone=no" name="format-detection"/>
-    <title>注册</title>
+    <title>绑定银行卡-下一步</title>
     <link href="css/common.css" type="text/css" rel="stylesheet">
-    <link href="css/register.css" type="text/css" rel="stylesheet">
+    <link href="css/binding-bank-next.css" type="text/css" rel="stylesheet">
 
 </head>
 <body>
-<div class="w register">
+<div class="w binding-bank-next">
     <div class="footBox">
         <ul>
             <li class="active">
                 <img src="images/btn_01_icon.png">
+
                 <p class="unit">我要理财</p>
             </li>
             <li>
@@ -27,25 +28,11 @@
         </ul>
     </div>
     <!--页面开始-->
-    <div class="register-from">
-        <div class="bg-gradual mt15">
-            <div class=" icon-iphone inp">
-                <span >手机号码</span>
-                <input class="input-text" placeholder="请输入您的手机号码" type="text">
-            </div>
-        </div>
-        <div class="bg-gradual mt15">
-            <div class=" icon-oppassLock inp">
-                <span >登录密码</span>
-                <input class="input-text" placeholder="请输入的登录密码 " type="text">
-            </div>
-        </div>
-        <div class="bg-gradual mt15 ">
-            <div class="icon-passLock inp">
-                <span >重复密码</span>
-                <input class="input-text" placeholder="请重复您的登录密码" type="text">
-            </div>
-
+    <div class="binding-bank-next-from">
+        <div class="bg-gradual mt15 tips fix">
+            <i class="fl"><img src="images/icon-warning.png"></i>
+                <p class="fl">设置交易密码需要短信确认，验证码已发送至
+                    手机：<em>189****8787</em>，请按照指示操作。</p>
         </div>
         <div class="bg-gradual mt15 ">
             <div class="icon-code inp">
@@ -55,16 +42,11 @@
             </div>
 
         </div>
+
     </div>
-    <div class="buy-agreement">
-        <label>
-            <input type="checkbox">
-            <p>我已阅读并同意签署</p>
-        </label>
-        <a>《用户注册协议》</a>
-    </div>
+
     <div class="btn">
-        提交
+        下一步
     </div>
 </div>
 

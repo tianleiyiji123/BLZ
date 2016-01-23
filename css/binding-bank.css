@@ -1,0 +1,57 @@
+.icon-HOME{
+    background: url("../images/icon-HOME.png") no-repeat left center;
+    background-size: 0.8rem 0.8rem;
+}
+.icon-CREDIT-CARD{
+    background: url("../images/icon-CREDIT-CARD.png") no-repeat left center;
+    background-size: 0.8rem 0.6rem;
+}
+.icon-USER_OK{
+    background: url("../images/icon-USER_OK.png") no-repeat left center;
+    background-size: 0.8rem 0.78rem;
+}
+.icon-iphone{
+    background: url("../images/icon-iphone.png") no-repeat left center;
+    background-size: 0.6rem 0.8rem;
+}
+
+.register-from .inp{
+    height: 0.9rem;
+    line-height: 0.8rem;
+    padding-left: 1rem;
+
+}
+
+.open-account{
+    padding-right: 1rem;
+    display: inline-block;
+    font-size: 0.75rem;
+    color: #BBBBBB;
+    background: url("../images/buy-icon-3.png") no-repeat right center;
+}
+.register-from .inp span{
+    display: inline-block;
+    width: 3rem;
+    font-size: 0.70rem;
+
+}
+
+.register-from .inp input{
+    width: 6rem;
+    font-size: 0.55rem;
+}
+
+.buy-agreement{
+    padding: 0.6rem 0.6rem 0 0.6rem;
+    overflow: hidden;
+}
+
+.buy-agreement label p{
+    color: #ffffff;
+    font-size: 0.6rem;
+    float: left;
+}
+
+
+
+

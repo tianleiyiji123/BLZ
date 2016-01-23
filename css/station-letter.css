@@ -1,0 +1,33 @@
+
+.station-letter-list .mod-details{
+    padding:0 0.06rem 0 0;
+
+}
+.station-letter-list .mod-details strong{
+    font-weight: 500;
+    padding-left: 0.75rem;
+    display: inline-block;
+    font-size: 0.65rem;
+    color: #00579c;
+    border-bottom: 0.08rem solid #005fab;
+    line-height: 2.2rem;
+}
+.station-letter-list .mod-details p{
+    display: inline-block;
+    font-size: 0.65rem;
+    color: #C0C0C0;
+    line-height: 2.2rem;
+    padding:0 0.6rem 0 0;
+}
+.mess {
+    background-color:#F8F8F8;
+    padding-top: 1rem;
+    margin-bottom: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+.mess p {
+    width: 15rem;
+    font-size: 0.65rem;
+    line-height: 0.95rem;
+    margin: 0 auto;
+}

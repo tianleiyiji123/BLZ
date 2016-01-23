@@ -1,0 +1,102 @@
+.icon-user{
+    background: url("../images/icon-user.png") no-repeat left center;
+    background-size: 0.8rem 0.8rem;
+}
+.icon-USER_OK{
+    background: url("../images/icon-USER_OK.png") no-repeat left center;
+    background-size: 0.8rem 0.7rem;
+}
+.icon-iphone{
+    background: url("../images/icon-iphone.png") no-repeat left center;
+    background-size: 0.6rem 0.8rem;
+}
+.icon-passLock{
+    background: url("../images/icon-passLock.png") no-repeat left center;
+    background-size: 0.6rem 0.8rem;
+}
+.icon-Face{
+    background: url("../images/icon-Face.png") no-repeat left center;
+    background-size: 0.6rem 0.8rem;
+}
+.icon-CREDIT-CARD{
+    background: url("../images/icon-CREDIT-CARD.png") no-repeat left center;
+    background-size: 0.8rem 0.6rem;
+}
+
+.icon-GRID{
+    background: url("../images/icon-GRID.png") no-repeat left center;
+    background-size: 0.8rem 0.8rem;
+}
+.icon-SPEECH{
+    background: url("../images/icon-SPEECH.png") no-repeat left center;
+    background-size: 0.8rem 0.6rem;
+}
+.account-settings-from .inp{
+
+    height: 0.9rem;
+    line-height: 0.8rem;
+    padding-left: 0.96rem;
+
+}
+
+.account-settings-from .inp span{
+    display: inline-block;
+    width: 3rem;
+    font-size: 0.70rem;
+    float: left;
+    line-height: 0.9rem;
+}
+
+.account-settings-from .inp input{
+    width: 6rem;
+    font-size: 0.65rem;
+    float: right;
+    text-align: right;
+    color: #888888;
+}
+
+.buy-agreement{
+    padding: 0.6rem;
+    overflow: hidden;
+}
+.buy-agreement label input{
+    margin: 0.1rem 0.4rem 0 0;
+    float: left;
+
+}
+.buy-agreement label p{
+    color: #ffffff;
+    font-size: 0.6rem;
+    float: left;
+}
+.buy-agreement a{
+    float: left;
+    font-size: 0.6rem;
+    color: #00a9ea;
+}
+.inpMess{
+    background: url("../images/buy-icon-3.png") no-repeat right center;
+    background-size: 0.3rem 0.5rem;
+    padding-right: 1rem;
+}
+
+.inpMess.edit{
+    background: url("../images/icon-fork.png") no-repeat right center;
+    background-size: 0.8rem 0.8rem;
+    padding-right: 1rem;
+}
+.mess{
+    padding: 0.2rem 0.6rem;
+    display: block;
+    color: #ffffff;
+    font-size: 0.6rem;
+    text-align: right;
+}
+.mess em{
+    margin-left: 0.6rem;
+    color: #00aeef;
+}
+
+
+
+

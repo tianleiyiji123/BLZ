@@ -1,0 +1,38 @@
+
+.my-point-list .mod-details{
+    padding:0 0.06rem 0 0;
+
+}
+.my-point-list .mod-details strong{
+    font-weight: 500;
+    padding-left: 0.75rem;
+    display: inline-block;
+    font-size: 0.65rem;
+    color: #00579c;
+    border-bottom: 0.08rem solid #005fab;
+    line-height: 2.2rem;
+}
+
+.mess {
+    background-color:#F8F8F8;
+    padding-top: 1rem;
+    margin-bottom: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+.mess p {
+    width: 15rem;
+    font-size: 0.65rem;
+    line-height: 0.95rem;
+    margin: 0 auto;
+}
+.message{
+    padding: 0.2rem 0.6rem;
+    display: block;
+    color: #ffffff;
+    font-size: 0.6rem;
+    text-align: right;
+}
+.message em{
+    margin-left: 0.6rem;
+    color: #00aeef;
+}
