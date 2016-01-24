@@ -1,24 +1,5 @@
 
 
-
-.buy-confirm{
-    height: 2rem;
-    margin: 0.8rem 0.6rem;
-    background: -webkit-linear-gradient(bottom, #df7128 0%, #fc8c3d 100%);
-
-}
-.buy-confirm button{
-    width: 100%;
-    height: 2rem;
-    text-align: center;
-    color: #ffffff;
-    font-size: 0.9rem;
-    background: none;
-    outline: none;
-    border: none;
-}
-
-
 .center-top{
     padding-top:1rem;
     padding-bottom: 1rem;
@@ -40,14 +21,14 @@
 
 .center-top p:nth-of-type(3){
     font-weight: 100!important;
-    font-size: 0.65rem;
+    font-size: 0.68rem;
     color: rgba(255, 255, 255, 0.51);
 
 }
 .center-top p:nth-of-type(4){
     margin-top: 0.1rem;
     font-weight: 100!important;
-    font-size: 1rem;
+    font-size: 1.2rem;
 
 }
 
@@ -66,43 +47,88 @@
 }
 .center-data li p {
     color: #888888;
-    margin-top: 0.3rem;
-    font-size: 0.65rem;
+    margin-top: 0.2rem;
+    font-size: 0.55rem;
+    text-align: center;
+}
+
+.my-center-box{
+    background-color: #fff;
+}
+
+.my-center-box .operate{
+    text-align: center;
+    padding-top:0.6rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #e9e9e9;
+    width: 15.1rem;
+    margin: 0 auto;
+}
+.my-recharge,.my-withdraw{
+    display: inline-block;
+    height: 1.8rem;
+    box-shadow: 0.1rem 0.1rem  0.3rem rgba(0, 0, 0, 0.17);
+    margin: 0 0.2rem;
+}
+.my-recharge a ,.my-withdraw a{
+    font-size: 0.7rem;
+    display:block;
+    padding-left: 1rem;
+    width: 7rem;
+    line-height: 1.8rem;
+    height: 1.8rem;
+    color: #fff;
+    border-radius: 0.09rem;
+
+}
+
+.my-recharge a{
+    box-shadow: inset -0.1rem -0.1rem  0.2rem rgba(0, 0, 0, 0.17);
+    background:#fa8232 url("../images/my-recharge.png") no-repeat 1.6rem center;
+    background-size: 0.8rem;
+}
+.my-withdraw a{
+    box-shadow: inset -0.1rem -0.1rem  0.3rem rgba(0, 0, 0, 0.17);
+    background:#27a3f8 url("../images/my-withdraw.png") no-repeat 1.6rem center;
+    background-size: 0.8rem;
+}
+.operate-list{
+
+}
+
+.icon-BAR-GRAPH1{
+    background: url("../images/icon-BAR-GRAPH1.png") no-repeat left center;
+    background-size: 0.8rem 0.6rem ;
+}
+.icon-COG{
+    background: url("../images/icon-COG.png") no-repeat left center;
+    background-size: 0.8rem 0.8rem ;
+}
+.icon-GRID{
+    background: url("../images/icon-GRID.png") no-repeat left center;
+    background-size: 0.8rem 0.8rem ;
+}
+.icon-COMPUTER_OK{
+    background: url("../images/icon-COMPUTER_OK.png") no-repeat left center;
+    background-size: 0.8rem 0.8rem ;
 }
 
 
-
-
-.buy-go h3{
+.operate-list span{
+    padding-left: 1rem;
     font-size: 0.7rem;
     color: #686868;
-    font-weight: normal;
+    display: inline-block;
 }
-.buy-w-detail{
-    /*border-bottom: 1px solid #dddddd;*/
 
+.inpMess {
+    background: url("../images/buy-icon-3.png") no-repeat right center;
+    background-size: 0.3rem 0.5rem;
+    padding-right: 1rem;
 }
-.buy-w-detail input{
-    float: left;
-}
-.buy-w-detail p{
 
-}
-.buy-agreement{
-    padding: 0.6rem;
-    overflow: hidden;
-}
-.buy-agreement label input{
-    margin: 0.1rem 0.4rem 0 0;
-    float: left;
-}
-.buy-agreement label p{
-    color: #ffffff;
-    font-size: 0.6rem;
-    float: left;
-}
-.buy-agreement a{
-    float: left;
-    font-size: 0.6rem;
-    color: #00a9ea;
+.operate-list p{
+    color: #fa8232;
+    font-size: 0.7rem;
+    display: inline-block;
 }

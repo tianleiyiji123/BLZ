@@ -19,7 +19,7 @@
                   <img src="images/btn_01_icon.png">
                   <p class="unit">我要理财</p>
               </li>
-              <li>
+              <li class="">
                   <img src="images/btn_02_icon.png">
                   <p class="unit">我的</p>
               </li>
@@ -58,7 +58,7 @@
             </ul>
         </div>
         <div class="modInner fix">
-            <strong class="fl unit white" style="margin-top: .2rem;">定期理财</strong>
+            <strong class="fl unit white">定期理财</strong>
             <a class="move fr"> 更多</a>
         </div>
         <div class="modInner">
@@ -67,45 +67,42 @@
                     <div class="ms">预期年化收益<span class="unit">7.40</span><span>%</span></div>
                     <ul>
                         <li>收益稳健</li>
-                        <li>锁定365天</li>
-                        <li>中风险</li>
+                        <li>880元起投</li>
+                        <li>限购5件</li>
                     </ul>
-
                 <div class="identify c9ed922">HOT</div>
             </div>
             <div class="panel">
-                <h3>暴雪金融理财产品（定期90天）</h3>
+                <h3  >暴雪金融理财产品（定期90天）</h3>
                 <div class="ms">预期年化收益<span class="unit">7.40</span><span>%</span></div>
                 <ul>
                     <li>收益稳健</li>
-                    <li>锁定365天</li>
-                    <li>中风险</li>
+                    <li>880元起投</li>
+                    <li>限购5件</li>
                 </ul>
-
                 <div class="identify c9ed922">HOT</div>
             </div>
             <div class="panel">
-                <h3>暴雪金融理财产品（定期90天）</h3>
+                <h3  >暴雪金融理财产品（定期90天）</h3>
                 <div class="ms">预期年化收益<span class="unit">7.40</span><span>%</span></div>
                 <ul>
                     <li>收益稳健</li>
-                    <li>锁定365天</li>
-                    <li>中风险</li>
+                    <li>880元起投</li>
+                    <li>限购5件</li>
                 </ul>
-
                 <div class="identify c9ed922">HOT</div>
             </div>
             <div class="panel">
-                <h3>暴雪金融理财产品（定期90天）</h3>
+                <h3  >暴雪金融理财产品（定期90天）</h3>
                 <div class="ms">预期年化收益<span class="unit">7.40</span><span>%</span></div>
                 <ul>
                     <li>收益稳健</li>
-                    <li>锁定365天</li>
-                    <li>中风险</li>
+                    <li>880元起投</li>
+                    <li>限购5件</li>
                 </ul>
-
                 <div class="identify c9ed922">HOT</div>
             </div>
+
         </div>
         <div class="modInner fix">
             <strong class="fl unit white" style="margin-top: .2rem;">专家型收益理财</strong>
@@ -117,10 +114,9 @@
                 <div class="ms">预期年化收益<span class="unit">7.40</span><span>%</span></div>
                 <ul>
                     <li>收益稳健</li>
-                    <li>锁定365天</li>
-                    <li>中风险</li>
+                    <li>880元起投</li>
+                    <li>限购5件</li>
                 </ul>
-
                 <div class="identify ceb480e">NEW</div>
             </div>
             <div class="panel">
@@ -128,10 +124,9 @@
                 <div class="ms">预期年化收益<span class="unit">7.40</span><span>%</span></div>
                 <ul>
                     <li>收益稳健</li>
-                    <li>锁定365天</li>
-                    <li>中风险</li>
+                    <li>880元起投</li>
+                    <li>限购5件</li>
                 </ul>
-
                 <div class="identify ceb480e">NEW</div>
             </div>
             <div class="panel">
@@ -139,10 +134,9 @@
                 <div class="ms">预期年化收益<span class="unit">7.40</span><span>%</span></div>
                 <ul>
                     <li>收益稳健</li>
-                    <li>锁定365天</li>
-                    <li>中风险</li>
+                    <li>880元起投</li>
+                    <li>限购5件</li>
                 </ul>
-
                 <div class="identify ceb480e">NEW</div>
             </div>
             <div class="panel">
@@ -150,34 +144,43 @@
                 <div class="ms">预期年化收益<span class="unit">7.40</span><span>%</span></div>
                 <ul>
                     <li>收益稳健</li>
-                    <li>锁定365天</li>
-                    <li>中风险</li>
+                    <li>880元起投</li>
+                    <li>限购5件</li>
                 </ul>
-
                 <div class="identify ceb480e">NEW</div>
             </div>
-            <div class="panel">
-                <h3>暴雪金融理财产品（定期90天）</h3>
-                <div class="ms">预期年化收益<span class="unit">7.40</span><span>%</span></div>
-                <ul>
-                    <li>收益稳健</li>
-                    <li>锁定365天</li>
-                    <li>中风险</li>
-                </ul>
 
-                <div class="identify ceb480e">NEW</div>
-            </div>
         </div>
     </div>
 
     <script src="js/zepto.min.js"></script>
     <script src="js/layout.js"></script>
     <script src="js/swiper.js"></script>
+    <script src="js/layer/layer.js"></script>
     <script type="text/javascript">
-        var mySwiper = new Swiper('.swiper-container',{
-            autoplay: 5000,
-            pagination: '.swiper-pagination'
+        $(function(){
+            var mySwiper = new Swiper('.swiper-container',{
+                autoplay: 5000,
+                pagination: '.swiper-pagination'
+            })
+
+            $(".panel").on("tap",function(){
+                layer.open({
+                    className:" submit-box",
+                    fixed:true,
+                    anim:false,
+                    style: 'width:100%;max-width:100%; top:8.8rem; border:none; left:0; position:fixed;',
+                    content: '<div>' +
+                    '<div class="submit-nav fix"><span class="bg-gradual bgap active">期限<i></i></span><span class="bg-gradual">类别<i></i></span></div>' +
+                    '<ul class=" fix bg-gradual"><li class="subBtn">全部</li><li class="subBtn">1个月</li><li class="subBtn">3个月</li><li class="subBtn">6个月</li></ul>' +
+                    '</div>'
+
+                });
+            })
         })
+
+
+
     </script>
 </body>
 </html>

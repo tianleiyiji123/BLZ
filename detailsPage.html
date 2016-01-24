@@ -73,36 +73,96 @@
     </div>
     <ul class="mess-list">
         <li>
-            <span class="fl">理财周期</span>
-            <i class="fr"></i>
+            <div class="fix mess-list-hd">
+                <span class="fl">理财周期</span>
+                <i class="fr"></i>
+            </div>
+
+            <div class="mag">
+                <p>
+                    统计数据显示，5月18日~6月5日，暴雪金融做市板块连续15个交易日成交额低于协议板块。6月8日~7月15日，暴雪金融调整最剧烈时期，这一情况没有发生；到7月16日这种情况再次重演：7月16日~8月14日的22个交易日
+                </p>
+            </div>
         </li>
         <li>
-            <span class="fl">详细说明</span>
-            <i class="fr"></i>
+            <div class="fix mess-list-hd">
+                <span class="fl">详细说明</span>
+                <i class="fr"></i>
+            </div>
+
+            <div class="mag">
+                <p>
+                    统计数据显示，5月18日~6月5日，暴雪金融做市板块连续15个交易日成交额低于协议板块。6月8日~7月15日，暴雪金融调整最剧烈时期，这一情况没有发生；到7月16日这种情况再次重演：7月16日~8月14日的22个交易日
+                </p>
+            </div>
         </li>
         <li>
-            <span class="fl">投资策略描述</span>
-            <i class="fr"></i>
+            <div class="fix mess-list-hd">
+                <span class="fl">投资策略描述</span>
+                <i class="fr"></i>
+            </div>
+            <div class="mag">
+                <p>
+                    统计数据显示，5月18日~6月5日，暴雪金融做市板块连续15个交易日成交额低于协议板块。6月8日~7月15日，暴雪金融调整最剧烈时期，这一情况没有发生；到7月16日这种情况再次重演：7月16日~8月14日的22个交易日
+                </p>
+            </div>
         </li>
         <li>
-            <span class="fl">历史业绩</span>
-            <i class="fr"></i>
+            <div class="fix mess-list-hd">
+                <span class="fl">历史业绩</span>
+                <i class="fr"></i>
+            </div>
+
+            <div class="mag">
+                <p>
+                    统计数据显示，5月18日~6月5日，暴雪金融做市板块连续15个交易日成交额低于协议板块。6月8日~7月15日，暴雪金融调整最剧烈时期，这一情况没有发生；到7月16日这种情况再次重演：7月16日~8月14日的22个交易日
+                </p>
+            </div>
+
         </li>
         <li>
-            <span class="fl">业绩数据分析</span>
-            <i class="fr"></i>
+            <div class="fix mess-list-hd">
+                <span class="fl">业绩数据分析</span>
+                <i class="fr"></i>
+            </div>
+            <div class="mag">
+                <p>
+                    统计数据显示，5月18日~6月5日，暴雪金融做市板块连续15个交易日成交额低于协议板块。6月8日~7月15日，暴雪金融调整最剧烈时期，这一情况没有发生；到7月16日这种情况再次重演：7月16日~8月14日的22个交易日
+                </p>
+            </div>
         </li>
         <li>
-            <span class="fl">取出规则</span>
-            <i class="fr"></i>
+            <div class="fix mess-list-hd">
+                <span class="fl">取出规则</span>
+                <i class="fr"></i>
+            </div>
+            <div class="mag">
+                <p>
+                    统计数据显示，5月18日~6月5日，暴雪金融做市板块连续15个交易日成交额低于协议板块。6月8日~7月15日，暴雪金融调整最剧烈时期，这一情况没有发生；到7月16日这种情况再次重演：7月16日~8月14日的22个交易日
+                </p>
+            </div>
         </li>
         <li>
-            <span class="fl">基金公司介绍</span>
-            <i class="fr"></i>
+            <div class="fix mess-list-hd">
+                <span class="fl">基金公司介绍</span>
+                <i class="fr"></i>
+            </div>
+            <div class="mag">
+                <p>
+                    统计数据显示，5月18日~6月5日，暴雪金融做市板块连续15个交易日成交额低于协议板块。6月8日~7月15日，暴雪金融调整最剧烈时期，这一情况没有发生；到7月16日这种情况再次重演：7月16日~8月14日的22个交易日
+                </p>
+            </div>
         </li>
         <li>
-            <span class="fl">风险提示</span>
-            <i class="fr"></i>
+            <div class="fix mess-list-hd">
+                <span class="fl">风险提示</span>
+                <i class="fr"></i>
+            </div>
+            <div class="mag">
+                <p>
+                    统计数据显示，5月18日~6月5日，暴雪金融做市板块连续15个交易日成交额低于协议板块。6月8日~7月15日，暴雪金融调整最剧烈时期，这一情况没有发生；到7月16日这种情况再次重演：7月16日~8月14日的22个交易日
+                </p>
+            </div>
         </li>
     </ul>
     <div class="btn">
@@ -114,10 +174,23 @@
 <script src="js/layout.js"></script>
 <script src="js/swiper.js"></script>
 <script type="text/javascript">
-    var mySwiper = new Swiper('.swiper-container',{
-        autoplay: 5000,
-        pagination: '.swiper-pagination'
+    $(function(){
+        var mySwiper = new Swiper('.swiper-container',{
+            autoplay: 5000,
+            pagination: '.swiper-pagination'
+        })
+
+        $(function(){
+            $(".mess-list-hd").on("tap",function(){
+                if($(this).next(".mag").is(":hidden")){
+                    $(this).next(".mag").fadeIn()
+                }else{
+                    $(this).next(".mag").fadeOut()
+                }
+            })
+        })
     })
+
 </script>
 </body>
 </html>

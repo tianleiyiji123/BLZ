@@ -1,0 +1,32 @@
+.aboutUs-hd{
+    text-align:center;
+    padding: 1.8rem 0 1.2rem;
+}
+.aboutUs-hd img{
+    width: 4rem;
+    margin-bottom: 0.7rem;
+}
+
+.aboutUs-hd  p{
+        display:block;
+    color: #00aeef;
+    font-size: 0.75rem;
+    font-family: "arial";
+}
+.aboutUs-list{
+    padding-left: 1rem;
+    width: 10rem;
+    margin: 0 auto;
+}
+.aboutUs-list span{
+    color: #686868;
+    font-size: 0.7rem;
+}
+.icon-Shape-756{
+    background: url("../images/icon-Shape-756.png") no-repeat left center;
+    background-size: 0.8rem 0.8rem ;
+}
+.icon-TIME{
+    background: url("../images/icon-TIME.png") no-repeat left center;
+    background-size: 0.8rem 0.8rem ;
+}

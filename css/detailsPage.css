@@ -23,10 +23,13 @@
     color: #fff;
     font-size: 0.75rem;
     margin: 0.6rem 0;
+    font-weight: 500;
 }
-
+.detailsPage .mod-data .plan{
+    margin-bottom: 1rem;
+}
 .detailsPage .mod-data img{
-    width: 8rem;
+    width: 6rem;
 }
 
 .detailsPage .mod-data-describe li{
@@ -44,6 +47,7 @@
 .detailsPage .mod-data-describe li p{
     margin-top: 0.3rem;
     font-size: 0.6rem;
+    color: #888888;
 }
 
 .detailsPage .mod-details{
@@ -73,19 +77,23 @@
 }
 .mess p {
     width: 15rem;
-    font-size: 0.65rem;
-    line-height: 0.95rem;
+    font-size: 0.6rem;
+    line-height: 1rem;
     margin: 0 auto;
+    color: #686868;
 }
 
 
 .mess-list li{
+
+
+}
+.mess-list li .mess-list-hd{
     padding:0.5rem 0.75rem 0;
     font-size: 0.75rem;
     line-height: 0.95rem;
     height: 2rem;
     background: -webkit-gradient(linear, left bottom, left top,  color-stop(30%,#ffffff) , color-stop(0%,#ededed));
-
 }
 .mess-list li span{
     line-height: 0.95rem;
@@ -99,6 +107,14 @@
     background-size: cover;
     background: url("../images/up-icon.png") no-repeat center;
     background-size: 0.6rem 0.4rem;
+}
+
+.mess-list li .mag{
+    display: none;
+    font-size: 0.6rem;
+    line-height: 0.9rem;
+    padding:0.5rem;
+    background: -webkit-gradient(linear, left bottom, left top,  color-stop(30%,#ffffff) , color-stop(0%,#ededed));
 }
 .star{
     margin: 0 0.6rem;

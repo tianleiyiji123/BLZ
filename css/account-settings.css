@@ -20,16 +20,16 @@
 }
 .icon-CREDIT-CARD{
     background: url("../images/icon-CREDIT-CARD.png") no-repeat left center;
-    background-size: 0.8rem 0.6rem;
+    background-size: 0.7rem 0.6rem;
 }
 
 .icon-GRID{
     background: url("../images/icon-GRID.png") no-repeat left center;
-    background-size: 0.8rem 0.8rem;
+    background-size: 0.7rem;
 }
 .icon-SPEECH{
     background: url("../images/icon-SPEECH.png") no-repeat left center;
-    background-size: 0.8rem 0.6rem;
+    background-size: 0.7rem 0.6rem;
 }
 .account-settings-from .inp{
 
@@ -76,8 +76,8 @@
 }
 .inpMess{
     background: url("../images/buy-icon-3.png") no-repeat right center;
-    background-size: 0.3rem 0.5rem;
-    padding-right: 1rem;
+    background-size: 0.4rem 0.6rem;
+    padding-right:0.8rem;
 }
 
 .inpMess.edit{

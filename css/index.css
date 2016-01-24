@@ -2,9 +2,41 @@
 .home{
     padding-bottom: 3.2rem;
 }
-.home .home-banner{
+.submit-box .layermcont{
+    padding: 0;
+}
+.submit-box .submit-nav span{
+    font-size: 0.65rem;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    width: 8rem;
+        position: relative;
+}
 
 
+.submit-box .submit-nav span i{
+    position: absolute;
+    top: 0.9rem;
+    left: 5.1rem;
+    display: block;
+    width: 0.5rem;
+    height:  0.3rem;
+    background: url("../images/icon-play2.png") no-repeat center;
+    background-size: cover;
+}
+.submit-box .submit-nav span.active{
+    color: #03AEF0;
+}
+.submit-box .submit-nav span.active i{
+    background: url("../images/icon-play.png") no-repeat center;
+    background-size: cover;
+}
+.submit-box .submit-nav span.bgap {
+    border-right: 0.05rem solid #DFDFDF;
+}
+.subBtn {
+    margin: 0 0.2rem;
 }
 .home .i-icon li{
     padding-top:0.3rem ;
@@ -65,5 +97,9 @@
     background: rgba(0, 165, 237, 0.09);
     border: 0.06rem solid #33bef2;
     color: #00aeef;
+}
+
+.home .panel span{
+    color: #EE523C;
 }
 

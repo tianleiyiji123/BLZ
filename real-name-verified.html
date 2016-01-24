@@ -6,13 +6,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
     <meta content="telephone=no" name="format-detection"/>
-    <title>充值-成功</title>
+    <title>实名认证-已认证</title>
     <link href="css/common.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="css/pay-success.css">
+    <link href="css/real-name-verified.css" type="text/css" rel="stylesheet">
 
 </head>
 <body>
-<div class="w pay-success">
+<div class="w real-name">
     <div class="footBox">
         <ul>
             <li class="active">
@@ -28,29 +28,30 @@
         </ul>
     </div>
     <!--页面开始-->
-    <div class="bg-gradual ">
-        <div class="payment-success-mess">
-            <img src="images/icon-success.png">
-            <span class="f10">
-               成功充值<em>680.00</em>元!
-            </span>
-            <p>如有问题请拨打客服</p>
-            <p class="orange">400-XXX-XXXX</p>
-            <p>（有效时间：周一至周五 9:00-18:00）</p>
+    <div class="real-name-from">
+        <div class="bg-gradual mt15">
+            <div class=" icon-user inp">
+                <span >真实姓名</span>
+                <input class="input-text" value="夏洛" placeholder="请输入真实姓名，提交后不可更改" type="text" readonly="readonly">
+            </div>
         </div>
-        <ul class="route fix">
-            <li class="route-url"><a href="index.html">继续理财</a></li>
-            <li class="gap">|</li>
-            <li class="route-url"><a href="my.html">个人中心</a></li>
-        </ul>
+
+        <div class="bg-gradual mt15">
+            <div class=" icon-notepad inp">
+                <span >身份证号</span>
+                <input class="input-text" value="411330*********1613" placeholder="请输入身份证号，提交后不可更改 " type="text" readonly="readonly">
+            </div>
+        </div>
 
     </div>
 
+    <div class="btn verified">
+        已认证
+    </div>
 </div>
 
 <script src="js/zepto.min.js"></script>
 <script src="js/layout.js"></script>
-
 
 </body>
 </html>

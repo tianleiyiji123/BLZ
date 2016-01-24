@@ -16,7 +16,10 @@
     display: block;
     float: right;
 }
-
+.state span:nth-child(1),.state span:nth-child(2){
+    color: #686868;
+    font-size: 0.6rem;
+}
 .stateMess{
     margin-top: 0.1rem;
 }

@@ -1,0 +1,36 @@
+.theme-bg{
+    padding: 0.6rem;
+}
+.bg{
+    width: 4.8rem;
+    height: 4.2rem;
+    display:block;
+    position: relative;
+    float: left;
+    margin:0 0.06rem;
+}
+.bg i{
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border: 0.06rem #ffffff solid;
+    border-radius: 50%;
+    position: absolute;
+    right: 0.4rem;
+    bottom: 0.4rem;
+}
+.bg.active i{
+    background: url("../images/buy-icon-4.png") no-repeat center;
+    background-size: 0.6rem 0.6rem;
+}
+.c78dac7{
+    background: -webkit-linear-gradient(bottom, #b3b3b3 0%, #DCDCDC 30%);
+}
+.cabd25f{
+
+    background: -webkit-linear-gradient(bottom, #2978d8 0%, #28A0FF 30%);
+}
+.cff8791{
+
+    background: -webkit-linear-gradient(bottom, #181818 0%, #282828 30%);
+}

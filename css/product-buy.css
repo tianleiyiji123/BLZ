@@ -1,7 +1,4 @@
 
-
-/*按钮通用样式*/
-
 .buy-confirm{
     height: 2rem;
     margin: 0.8rem 0.6rem;
@@ -19,7 +16,7 @@
     border: none;
 }
 
-/*页面单独样式*/
+/*页锟芥单锟斤拷锟斤拷式*/
 .buy-top{
     padding: 50px 15px;
     background: -webkit-linear-gradient(top, #0068bc 0%, #004c8a 100%);

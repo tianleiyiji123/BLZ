@@ -36,45 +36,38 @@
     </div>
     <!--投资-->
     <div class="bg-gradual investments-record-list mt10 ">
-        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="state fix"><span>投资产品</span><span>暴雪理财产品(<em>定期30天</em>)</span></div>
         <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
     </div>
     <div class="bg-gradual investments-record-list mt10 ">
-        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="state fix"><span>投资产品</span><span>暴雪理财产品(<em>定期30天</em>)</span></div>
         <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
     </div>
     <div class="bg-gradual investments-record-list mt10 ">
-        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="state fix"><span>投资产品</span><span>暴雪理财产品(<em>定期30天</em>)</span></div>
         <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
     </div>
     <div class="bg-gradual investments-record-list mt10 ">
-        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="state fix"><span>投资产品</span><span>暴雪理财产品(<em>定期30天</em>)</span></div>
         <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
     </div>
     <div class="bg-gradual investments-record-list mt10 ">
-        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="state fix"><span>投资产品</span><span>暴雪理财产品(<em>定期30天</em>)</span></div>
         <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
     </div>
     <div class="bg-gradual investments-record-list mt10 ">
-        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="state fix"><span>投资产品</span><span>暴雪理财产品(<em>定期30天</em>)</span></div>
         <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
     </div>
     <div class="bg-gradual investments-record-list mt10 ">
-        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="state fix"><span>投资产品</span><span>暴雪理财产品(<em>定期30天</em>)</span></div>
         <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
     </div>
     <div class="bg-gradual investments-record-list mt10 ">
-        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
+        <div class="state fix"><span>投资产品</span><span>暴雪理财产品(<em>定期30天</em>)</span></div>
         <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
     </div>
-    <div class="bg-gradual investments-record-list mt10 ">
-        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
-        <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
-    </div>
-    <div class="bg-gradual investments-record-list mt10 ">
-        <div class="state fix"><span>投资产品</span><span>聚划算(<em>定期30天</em>)</span></div>
-        <div class="stateMess fix"><span>产品编码：<em>aa201508001</em></span>  <span><p>2015-11-13 17:09:09</p></span></div>
-    </div>
+
 </div>
 
 <script src="js/zepto.min.js"></script>
@@ -87,8 +80,15 @@
                 className:"bg-gradual submit-box",
                 fixed:true,
                 shade:false,
+                anim:false,
                 style: 'width:100%;max-width:100%; top:1.8rem; border:none; left:0; position:fixed;',
-                content: '<div class="subBtn">买入</div><div class="subBtn">取出</div>'
+                content: '<div class="subBtn">买入</div><div class="subBtn getOut">取出</div>',
+                success:function(index){
+                    $(".getOut").on("tap",function(){
+                        layer.closeAll()
+                    })
+
+                }
 
             });
         })

@@ -1,0 +1,44 @@
+.my-class{
+    padding: 0.6rem;
+}
+.classroom{
+    padding-top:1rem ;
+    width: 4.8rem;
+    height: 4.6rem;
+    display:block;
+    position: relative;
+    float: left;
+    margin:0 0.06rem;
+    text-align: center;
+
+}
+.classroom img{
+    height: 1.3rem;
+}
+.classroom p{
+    margin-top: 0.4rem;
+    font-size: 0.65rem;
+    color: #FFFFFF;
+}
+
+.ceaad43{
+    background: -webkit-linear-gradient(bottom, #ac7f32 0%, #eaad43 30%);
+}
+.c45bc62{
+
+    background: -webkit-linear-gradient(bottom, #3b8c46 0%, #45bc62 30%);
+}
+.c49acd5{
+
+    background: -webkit-linear-gradient(bottom, #3a81a0 0%, #49acd5 30%);
+}
+
+.tit{
+    text-align:center;
+    margin-bottom: 0.6rem;
+
+}
+.tit span{
+    color: #FFF;
+    font-size: 0.8rem;
+}

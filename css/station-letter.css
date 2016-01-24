@@ -12,12 +12,15 @@
     border-bottom: 0.08rem solid #005fab;
     line-height: 2.2rem;
 }
-.station-letter-list .mod-details p{
+.station-letter-list .mod-details a{
     display: inline-block;
-    font-size: 0.56rem;
-    color: #C0C0C0;
+    font-size: 0.6rem;
+    color: #8B8B8B;
     line-height: 2.2rem;
     padding:0 0.6rem 0 0;
+    background: url("../images/buy-icon-3.png") no-repeat right center;
+    background-size: 0.4rem 0.6rem;
+    margin-right: 1rem;
 }
 .mess {
     background-color:#F8F8F8;
@@ -28,6 +31,6 @@
 .mess p {
     width: 15rem;
     font-size: 0.6rem;
-    line-height: 0.95rem;
+    line-height: 1.2rem;
     margin: 0 auto;
 }

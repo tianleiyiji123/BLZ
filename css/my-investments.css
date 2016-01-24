@@ -16,7 +16,7 @@
 .my-investments-top ul li{
     line-height: 2rem;
     float: left;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     text-align: left;
     width: 5.3rem;
     padding-left: 0.55rem;
@@ -34,10 +34,8 @@
 
 }
 .state span,.stateMess span{
-
     color: #686868;
-
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     line-height: 1rem;
 }
 .state span:nth-child(1) ,.stateMess span:nth-child(1){

@@ -50,7 +50,7 @@
         </div>
         <div class="bg-gradual mt5 ">
             <div class="icon-iphone inp">
-                <span >账户扣除金额</span>
+                <span style=" width: 4.5rem;">账户扣除金额</span>
                 <div class="fr">
                     <p>00.0</p>
                 </div>
@@ -59,7 +59,7 @@
         </div>
         <div class="bg-gradual mt15 ">
             <div class="icon-passLock inp">
-                <span >预计到账日期</span>
+                <span style=" width: 4.5rem;">预计到账日期</span>
                 <div class="fr">
                     <p>2016-01-18</p>
                 </div>
@@ -71,14 +71,14 @@
         <div class="bg-gradual mt5 ">
             <div class="icon-Face inp">
                 <span >手机验证码</span>
-                <input class="input-text fl" placeholder="请输入手机验证码"  type="text" >
+                <input class="input-text fl focusInp" placeholder="请输入手机验证码"  type="text" >
                 <div class="minBtn fr mar_top">发送验证码</div>
             </div>
         </div>
-        <div class="bg-gradual mt15 ">
+        <div class="bg-gradual mt15">
             <div class="icon-CREDIT-CARD inp">
                 <span >交易密码</span>
-                <input class="input-text fl" placeholder="请输入交易密码"  type="text" >
+                <input class="input-text fl focusInp" placeholder="请输入交易密码"  type="text" >
             </div>
         </div>
     </div>
@@ -88,7 +88,23 @@
 
 <script src="js/zepto.min.js"></script>
 <script src="js/layout.js"></script>
+<script src="js/app.js"></script>
+<script>
+    $(function(){
+        focusInpfnc($(".focusInp"),function(d,_wh){
+            d.focus(function(){
+                $("body").height(parseInt($(this).data("option")["data-h"])).scrollTop(parseInt($(this).data("option")["data-offTop"]));
 
+            });
+
+            d.blur(function(){
+                $("body").height(_wh)
+            })
+        })
+    })
+
+
+</script>
 
 </body>
 </html>
