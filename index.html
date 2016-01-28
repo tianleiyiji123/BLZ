@@ -12,6 +12,15 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    <header class="header">
+        <a class="h-return">返回</a>
+        <p class="h-p" >暴雪金融</p>
+        <div class="h-go-search" style="display: none;">
+            <input type="text" id="h-s-input">
+            <a class="h-go-icon"></a>
+        </div>
+        <a class="h-search h-touch"></a>
+    </header>
     <div class="w home">
         <div class="footBox">
           <ul>
@@ -164,7 +173,7 @@
                 pagination: '.swiper-pagination'
             })
 
-            $(".panel").on("tap",function(){
+            $(".panel").on("click",function(){
                 layer.open({
                     className:" submit-box",
                     fixed:true,
@@ -176,10 +185,28 @@
                     '</div>'
 
                 });
+            });
+
+///h-search-none
+            $(".h-touch").on("tap",function(){
+                var _hasClass = $(".h-search").attr("class");
+                var bool = /h-search-none/g.test(_hasClass);
+                if(bool){
+                    $(".h-search").text("");
+                    $(".h-search").removeClass("h-search-none");
+                    $(".h-p").show();
+                    $(".h-go-search").hide();
+                }else{
+                    $(".h-search").text("").text("取消");
+                    $(".h-search").addClass("h-search-none");
+                    $(".h-p").hide();
+                    $(".h-go-search").show();
+                }
+
             })
         })
 
-
+        console.dir($);
 
     </script>
 </body>

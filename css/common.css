@@ -304,6 +304,77 @@ body{min-width:320px;color:#686868;background: #005fa2;}
     background-color: #eb480e;
 }
 
+/*头部header公共样式*/
+.header{
+    padding: .7rem .6rem .6rem;
+    background-color: #000000;
+    overflow: hidden;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.75rem;
+    position: relative;
+}
+.h-return{
+    display: block;
+    float: left;
+    color: #ffffff;
+    font-size: 0.65rem;
+    background: url(../images/header-r.png) left center no-repeat;
+    background-size: .5rem .7rem;
+    text-indent: .8rem;
+}
+.h-search{
+    width: 2.5rem;
+    height: 1.2rem;
+    float: right;
+    background: url(../images/header-s.png) right center no-repeat;
+    background-size: 1rem 1rem;
+}
+.h-p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.75rem;
+    position: absolute;
+    left:50%;
+    margin-left: -30px;
+}
+.h-search-none{
+    background: none;
+    color:#ffffff;
+    text-align: right;
+    font-size: 0.65rem;
+}
+.h-go-search{
+    width: 9.5rem;
+    height: 1rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -4.2rem;
+    background:url(../images/h-go-search.png) 8.2rem center no-repeat #2a2b2b;
+    background-size: 0.8rem .8rem;
+    border-radius: .5rem;
+}
+.h-go-search input{
+    width: 8rem;
+    height: 1.1rem;
+    border: 0;
+    color: #ffffff;
+    text-indent: 1em;
+    position: absolute;
+    left: 0;
+
+}
+.h-go-search a.h-go-icon{
+    width: 1.3rem;
+    height: 1.2rem;
+    position: absolute;
+    right: .4rem;
+}
+.h-go-search .h-search{
+    position: absolute;
+    right: 0;
+}
+
 
 
 
