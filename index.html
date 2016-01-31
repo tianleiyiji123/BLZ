@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" style="z-index: 198910140">
         <a class="h-return">返回</a>
         <p class="h-p" >暴雪金融</p>
-       <!-- <div class="h-go-search" style="display: none;">
+        <div class="h-go-search" style="display: none;">
             <input type="text" id="h-s-input" placeholder="输入产品名称">
             <a class="h-go-icon"></a>
-        </div>-->
+        </div>
         <a class="h-search h-touch"></a>
     </header>
     <div class="h25"></div>
@@ -200,7 +200,7 @@
                 pagination: '.swiper-pagination'
             })
 
-            $(".panel").on("click",function(){
+           /* $(".panel").on("click",function(){
                 layer.open({
                     className:" submit-box",
                     fixed:true,
@@ -212,7 +212,7 @@
                     '</div>'
 
                 });
-            });
+            });*/
 
 ///h-search-none
             $(".h-touch").on("click",function(){
@@ -223,11 +223,25 @@
                     $(".h-search").removeClass("h-search-none");
                     $(".h-p").show();
                     $(".h-go-search").hide();
+                    layer.closeAll()
                 }else{
                     $(".h-search").text("").text("取消");
                     $(".h-search").addClass("h-search-none");
                     $(".h-p").hide();
                     $(".h-go-search").show();
+
+                    layer.open({
+                        className:" submit-box",
+                        fixed:true,
+                        anim:false,
+                        shadeClose:false,
+                        style: 'width:100%;max-width:100%; top:8.8rem; border:none; left:0; position:fixed;',
+                        content: '<div>' +
+                        '<div class="submit-nav fix"><span class="bg-gradual bgap active">期限<i></i></span><span class="bg-gradual">类别<i></i></span></div>' +
+                        '<ul class=" fix bg-gradual"><li class="subBtn">全部</li><li class="subBtn">1个月</li><li class="subBtn">3个月</li><li class="subBtn">6个月</li></ul>' +
+                        '</div>'
+
+                    });
                 }
 
             })
