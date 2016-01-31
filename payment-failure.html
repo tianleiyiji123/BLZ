@@ -14,23 +14,27 @@
 </head>
 <body>
 <header class="header">
-    <a class="h-return">返回</a>
-    充值失败
+	<a class="h-return" onclick="history.back()">返回</a>
+	<p class="h-p" style="">支付失败</p>
+	<!--<div class="h-go-search">-->
+		<!--<input type="text" id="h-s-input">-->
+		<!--<a class="h-go-icon"></a>-->
+	<!--</div>-->
+	<!--<a class="h-search"></a>-->
 </header>
+<div class="h25"></div>
 <div class="w payment-failure">
     <div class="footBox">
         <ul>
-            <li class="active">
-                <img src="images/btn_01_icon.png">
-
-                <p class="unit">我要理财</p>
-            </li>
-            <li>
-                <img src="images/btn_02_icon.png">
-
-                <p class="unit">我的</p>
-            </li>
-        </ul>
+             <li class="active" onclick="location.href='index.html'">
+                 <img src="images/btn_01_icon.png">
+                 <p class="unit">我要理财</p>
+             </li>
+             <li class="" onclick="location.href='login.html'">
+                 <img src="images/btn_02_icon.png">
+                 <p class="unit">我的</p>
+             </li>
+         </ul>
     </div>
     <!--页面开始-->
     <div class="bg-gradual ">
@@ -40,13 +44,13 @@
                 支付失败！
             </span>
             <p>失败原因: error14</p>
-            <p>请联系客服: <em>400-XXX-XXXX</em></p>
+            <p>请联系客服: <em>4000-583-385</em></p>
             <p>（有效时间：周一至周五 9:00-18:00）</p>
         </div>
         <ul class="route fix">
-            <li class="route-url"><a href="index.html">继续理财</a></li>
+            <li class="route-url"><a href="index.html">查看支付问题</a></li>
             <li class="gap">|</li>
-            <li class="route-url"><a href="my.html">个人中心</a></li>
+            <li class="route-url"><a href="my.html">继续投资</a></li>
         </ul>
 
     </div>

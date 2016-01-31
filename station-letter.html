@@ -13,23 +13,27 @@
 </head>
 <body>
 <header class="header">
-    <a class="h-return">返回</a>
-    站内信
+	<a class="h-return" onclick="history.back()">返回</a>
+	<p class="h-p" style="">站内信</p>
+	<!--<div class="h-go-search">-->
+		<!--<input type="text" id="h-s-input">-->
+		<!--<a class="h-go-icon"></a>-->
+	<!--</div>-->
+	<!--<a class="h-search"></a>-->
 </header>
+<div class="h25"></div>
 <div class="w station-letter">
     <div class="footBox">
         <ul>
-            <li class="active">
-                <img src="images/btn_01_icon.png">
-
-                <p class="unit">我要理财</p>
-            </li>
-            <li>
-                <img src="images/btn_02_icon.png">
-
-                <p class="unit">我的</p>
-            </li>
-        </ul>
+             <li class="active" onclick="location.href='index.html'">
+                 <img src="images/btn_01_icon.png">
+                 <p class="unit">我要理财</p>
+             </li>
+             <li class="" onclick="location.href='login.html'">
+                 <img src="images/btn_02_icon.png">
+                 <p class="unit">我的</p>
+             </li>
+         </ul>
     </div>
     <!--页面开始-->
     <div class="station-letter-list mt15">
@@ -91,18 +95,18 @@
 
             <p>
                 <span>交易摘要：</span>
-                <span>买入成功，收益预计1月24日到账</span>
+                <span>提现资金已到账</span>
             </p>
             <p>
-                <span>买入金额：</span>
-                <span>1200.00元</span>
+                <span>取出金额：</span>
+                <span>680.00元</span>
             </p>
             <p>
-                <span>买入产品：</span>
-                <span>暴雪理财产品 （30天）</span>
+                <span>资金去向：</span>
+                <span>绑定银行卡（62170034*********012）</span>
             </p>
             <p>
-                <span>买入时间：</span>
+                <span>到账时间：</span>
                 <span>2016-01-17  12::09:09</span>
             </p>
         </div>

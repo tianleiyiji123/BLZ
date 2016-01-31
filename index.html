@@ -16,11 +16,12 @@
         <a class="h-return">返回</a>
         <p class="h-p" >暴雪金融</p>
         <div class="h-go-search" style="display: none;">
-            <input type="text" id="h-s-input">
+            <input type="text" id="h-s-input" placeholder="输入产品名称">
             <a class="h-go-icon"></a>
         </div>
         <a class="h-search h-touch"></a>
     </header>
+    <div class="h25"></div>
     <div class="w home">
         <div class="footBox">
           <ul>
@@ -188,7 +189,7 @@
             });
 
 ///h-search-none
-            $(".h-touch").on("tap",function(){
+            $(".h-touch").on("click",function(){
                 var _hasClass = $(".h-search").attr("class");
                 var bool = /h-search-none/g.test(_hasClass);
                 if(bool){
@@ -206,7 +207,6 @@
             })
         })
 
-        console.dir($);
 
     </script>
 </body>

@@ -13,21 +13,27 @@
 </head>
 <body>
 <header class="header">
-    <a class="h-return">返回</a>
-    账户设置
+	<a class="h-return" onclick="history.back()">返回</a>
+	<p class="h-p" style="">账户设置</p>
+	<!--<div class="h-go-search">-->
+		<!--<input type="text" id="h-s-input">-->
+		<!--<a class="h-go-icon"></a>-->
+	<!--</div>-->
+	<!--<a class="h-search"></a>-->
 </header>
+<div class="h25"></div>
 <div class="w account-settings">
     <div class="footBox">
         <ul>
-            <li class="active">
-                <img src="images/btn_01_icon.png">
-                <p class="unit">我要理财</p>
-            </li>
-            <li>
-                <img src="images/btn_02_icon.png">
-                <p class="unit">我的</p>
-            </li>
-        </ul>
+             <li class="active" onclick="location.href='index.html'">
+                 <img src="images/btn_01_icon.png">
+                 <p class="unit">我要理财</p>
+             </li>
+             <li class="" onclick="location.href='login.html'">
+                 <img src="images/btn_02_icon.png">
+                 <p class="unit">我的</p>
+             </li>
+         </ul>
     </div>
     <!--页面开始-->
     <div class="account-settings-from">
@@ -41,7 +47,7 @@
             </div>
         </div>
         <div class="bg-gradual mt15">
-            <div class="icon-USER_OK inp">
+            <div class="icon-USER_OK inp" onclick="location.href='real-name.html'">
                 <span >实名认证</span>
                 <div class="fr inpMess">
                     <input class="input-text" value="已认证" type="text" readonly="readonly">
@@ -61,7 +67,7 @@
             <div class="icon-passLock inp">
                 <span >登陆密码</span>
                 <div class="fr inpMess">
-                    <input class="input-text" value="已设置" type="text" readonly="readonly">
+                    <input class="input-text" value="已设置" type="text" readonly="readonly" onclick="location.href='edit-login-password.html'">
 
                 </div>
             </div>
@@ -70,7 +76,7 @@
             <div class="icon-Face inp">
                 <span >交易密码</span>
                 <div class="fr inpMess">
-                    <input class="input-text" value="已设置" type="text" readonly="readonly">
+                    <input class="input-text" value="已设置" type="text" readonly="readonly" onclick="location.href='edit-deal-password.html'">
                 </div>
             </div>
         </div>
@@ -78,24 +84,24 @@
             <div class="icon-CREDIT-CARD inp">
                 <span >银行卡</span>
                 <div class="fr inpMess">
-                    <input class="input-text" value="6225*********3285" type="text" readonly="readonly">
+                    <input class="input-text" value="6225*********3285" type="text" readonly="readonly" onclick="location.href='binding-bank.html'">
 
                 </div>
             </div>
         </div>
         <div class="mess ">
-            <p>*如要修改银行卡,请联系<em>400-XXX-XXXX</em></p>
+            <p>*如要修改银行卡,请联系<em>4000-583-385</em></p>
         </div>
         <div class="bg-gradual mt5">
             <div class="icon-GRID inp">
-                <a class="block inpMess fix">
+                <a class="block inpMess fix" onclick="location.href='theme-bg.html'">
                 <span >主题背景</span>
                 </a>
             </div>
         </div>
         <div class="bg-gradual mt15">
             <div class="icon-SPEECH inp">
-                <a class="block inpMess fix">
+                <a class="block inpMess fix" onclick="location.href='about-us.html'">
                     <span >关于我们</span>
                 </a>
 
@@ -103,14 +109,14 @@
         </div>
     </div>
 
-    <div class="btn">安全退出</div>
+    <div class="btn" onclick="location.href='index.html'">安全退出</div>
 </div>
 
 <script src="js/zepto.min.js"></script>
 <script src="js/layout.js"></script>
 <script>
     $(function(){
-        $("#nickname").data("key",0).on("tap",function(){
+        $("#nickname").data("key",0).on("click",function(){
             if( $(this).data("key") == 0){
                 $(this).find(".inpMess").addClass("edit").find("input").removeAttr("readonly")
                 $(this).data("key",1)

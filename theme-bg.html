@@ -13,23 +13,27 @@
 </head>
 <body>
 <header class="header">
-    <a class="h-return">返回</a>
-    主题背景
+	<a class="h-return" onclick="history.back()">返回</a>
+	<p class="h-p" style="">主题背景</p>
+	<!--<div class="h-go-search">-->
+		<!--<input type="text" id="h-s-input">-->
+		<!--<a class="h-go-icon"></a>-->
+	<!--</div>-->
+	<!--<a class="h-search"></a>-->
 </header>
+<div class="h25"></div>
 <div class="w theme-bg">
     <div class="footBox">
         <ul>
-            <li class="active">
-                <img src="images/btn_01_icon.png">
-
-                <p class="unit">我要理财</p>
-            </li>
-            <li>
-                <img src="images/btn_02_icon.png">
-
-                <p class="unit">我的</p>
-            </li>
-        </ul>
+             <li class="active" onclick="location.href='index.html'">
+                 <img src="images/btn_01_icon.png">
+                 <p class="unit">我要理财</p>
+             </li>
+             <li class="" onclick="location.href='login.html'">
+                 <img src="images/btn_02_icon.png">
+                 <p class="unit">我的</p>
+             </li>
+         </ul>
     </div>
     <!--页面开始-->
     <div class="theme-bg-select fix">

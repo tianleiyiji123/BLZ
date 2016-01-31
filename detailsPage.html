@@ -13,21 +13,27 @@
 </head>
 <body>
 <header class="header">
-    <a class="h-return">返回</a>
-    项目详情
+	<a class="h-return" onclick="history.back()">返回</a>
+	<p class="h-p" style="">项目详情</p>
+	<!--<div class="h-go-search">-->
+		<!--<input type="text" id="h-s-input">-->
+		<!--<a class="h-go-icon"></a>-->
+	<!--</div>-->
+	<!--<a class="h-search"></a>-->
 </header>
+<div class="h25"></div>
 <div class="w detailsPage">
     <div class="footBox">
         <ul>
-            <li class="active">
-                <img src="images/btn_01_icon.png">
-                <p class="unit">我要理财</p>
-            </li>
-            <li>
-                <img src="images/btn_02_icon.png">
-                <p class="unit">我的</p>
-            </li>
-        </ul>
+             <li class="active" onclick="location.href='index.html'">
+                 <img src="images/btn_01_icon.png">
+                 <p class="unit">我要理财</p>
+             </li>
+             <li class="" onclick="location.href='login.html'">
+                 <img src="images/btn_02_icon.png">
+                 <p class="unit">我的</p>
+             </li>
+         </ul>
     </div>
     <!--页面开始-->
     <div class="swiper-container">
@@ -74,6 +80,9 @@
         <p>
             统计数据显示，5月18日~6月5日，暴雪金融做市板块连续15个交易日成交额低于协议板块。6月8日~7月15日，暴雪金融调整最剧烈时期，这一情况没有发生；到7月16日这种情况再次重演：7月16日~8月14日的22个交易日内有13个交易日出现做市板块成交金额不及协议转让的情况。
         </p>
+    </div>
+	<div class="btn" style="margin-top:2px;margin-buttom:2px;">
+        确认购买
     </div>
     <ul class="mess-list">
         <li>
@@ -169,9 +178,6 @@
             </div>
         </li>
     </ul>
-    <div class="btn">
-        立即购买
-    </div>
 </div>
 
 <script src="js/zepto.min.js"></script>
@@ -185,7 +191,7 @@
         })
 
         $(function(){
-            $(".mess-list-hd").on("tap",function(){
+            $(".mess-list-hd").on("click",function(){
                 if($(this).next(".mag").is(":hidden")){
                     $(this).next(".mag").fadeIn()
                 }else{
