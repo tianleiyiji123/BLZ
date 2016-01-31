@@ -2,6 +2,10 @@
     background: url("../images/icon-HOME.png") no-repeat left center;
     background-size: 0.8rem 0.7rem;
 }
+.icon-PIN-2{
+    background: url("../images/icon-PIN-2.png") no-repeat left center;
+    background-size: 0.6rem 0.8rem;
+}
 .icon-CREDIT-CARD{
     background: url("../images/icon-CREDIT-CARD.png") no-repeat left center;
     background-size: 0.8rem 0.6rem;

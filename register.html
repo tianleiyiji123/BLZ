@@ -2,83 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-    <meta content="telephone=no" name="format-detection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta content="telephone=no" name="format-detection" />
     <title>注册</title>
     <link href="css/common.css" type="text/css" rel="stylesheet">
-    <link href="css/register.css" type="text/css" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/path/swiper.min.css">
+    <link rel="stylesheet" href="css/register.css">
 </head>
 <body>
 <header class="header">
-	<a class="h-return" onclick="history.back()">返回</a>
-	<p class="h-p" style="">注册</p>
-	<!--<div class="h-go-search">-->
-		<!--<input type="text" id="h-s-input">-->
-		<!--<a class="h-go-icon"></a>-->
-	<!--</div>-->
-	<!--<a class="h-search"></a>-->
+    <a class="h-return">返回</a>
+    <p class="h-p" >注册</p>
+    <!-- <div class="h-go-search" style="display: none;">
+         <input type="text" id="h-s-input" placeholder="输入产品名称">
+         <a class="h-go-icon"></a>
+     </div>
+    <a class="h-search h-touch"></a>-->
 </header>
-<div class="h25"></div>
-<div class="w register">
+<div style="height: 2.1rem"></div>
+<div class="w home">
+
     <div class="footBox">
         <ul>
-             <li class="active" onclick="location.href='index.html'">
-                 <img src="images/btn_01_icon.png">
-                 <p class="unit">我要理财</p>
-             </li>
-             <li class="" onclick="location.href='login.html'">
-                 <img src="images/btn_02_icon.png">
-                 <p class="unit">我的</p>
-             </li>
-         </ul>
+            <li class="active">
+                <img src="images/btn_01_icon.png">
+                <p class="unit">我要理财</p>
+            </li>
+            <li class="">
+                <img src="images/btn_02_icon.png">
+                <p class="unit">我的</p>
+            </li>
+        </ul>
     </div>
     <!--页面开始-->
-    <div class="register-from">
-        <div class="bg-gradual mt15">
-            <div class=" icon-iphone inp">
-                <span >手机号码</span>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner.png"></div>
+            <div class="swiper-slide"><img src="images/banner.png"></div>
+            <div class="swiper-slide"><img src="images/banner.png"></div>
+        </div>
+        <div class="swiper-pagination banner-dot"></div>
+    </div>
+    <div class="index-register">
+        <h3>注册有惊喜</h3>
+        <div class="index-register-mod">
+            <div class=" icon-iphone inpBox fix mt10 icon-iphone">
+                <span >手机号</span>
                 <input class="input-text" placeholder="请输入您的手机号码" type="text">
             </div>
-        </div>
-        <div class="bg-gradual mt15">
-            <div class=" icon-oppassLock inp">
-                <span >登录密码</span>
-                <input class="input-text" style="width: 10rem" placeholder="请输入6位以上数字的登录密码 " type="text">
+            <div class=" icon-oppassLock inpBox fix mt10 icon-oppassLock">
+                <span >密&nbsp;&nbsp;&nbsp;码</span>
+                <input class="input-text"  placeholder="请输入6位以上数字的登录密码 " type="text">
             </div>
-        </div>
-        <div class="bg-gradual mt15 ">
-            <div class="icon-passLock inp">
-                <span >重复密码</span>
-                <input class="input-text" placeholder="请重复您的登录密码" type="text">
-            </div>
-
-        </div>
-        <div class="bg-gradual mt15 ">
-            <div class="icon-code inp">
+            <div class="icon-code inpBox fix mt10 icon-code">
                 <span >验证码</span>
-                <input class="input-text" placeholder="验证码十分钟内有效" type="text">
-                <div class="minBtn fr mar_top">发送验证码</div>
+                <input class="input-text" style="width:6rem" placeholder="验证码十分钟内有效" type="text">
+                <div class="index-register-code fr">发送验证码</div>
             </div>
-
         </div>
+        <div class="buy-agreement">
+            <label>
+                <input type="checkbox">
+                <p>我已阅读并同意签署</p>
+            </label>
+            <a>《用户注册协议》</a>
+        </div>
+        <div class="btn">立即注册</div>
     </div>
-    <div class="buy-agreement">
-        <label>
-            <input type="checkbox">
-            <p>我已阅读并同意签署</p>
-        </label>
-        <a>《用户注册协议》</a>
-    </div>
-    <div class="btn">
-        提交
-    </div>
+
+
+
 </div>
 
 <script src="js/zepto.min.js"></script>
 <script src="js/layout.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/layer/layer.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var mySwiper = new Swiper('.swiper-container',{
+            autoplay: 5000,
+            pagination: '.swiper-pagination'
+        })
 
+
+    })
+
+
+</script>
 </body>
 </html>
